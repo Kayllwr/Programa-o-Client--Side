@@ -1,16 +1,1 @@
-arquivo = open ('nome', 'w')
-arquivo.write('1\n')
-arquivo.write('2\n')
-arquivo.close()
 
-arquivo = open ('nome',"r")
-print (arquivo.read())
-arquivo.close()
-
-arquivo = open ('nome','a')
-arquivo.write ('3')
-arquivo.close()
-
-arquivo = open ('nome','r')
-print (arquivo.read())
-arquivo.close()
